@@ -1,3 +1,17 @@
+# Academic Paper Engineering Skill · 2.5.1-rc.1
+
+**当前发布候选：论文工程化 + 证据审计 + 最终验收。**
+
+[开始使用](release-candidates/2.5.1-rc.1/README.md) · [安装与调用](release-candidates/2.5.1-rc.1/docs/INSTALL.md) · [完整使用说明](release-candidates/2.5.1-rc.1/docs/USER_GUIDE.md) · [发布说明](release-candidates/2.5.1-rc.1/RELEASE_NOTES.md) · [MIT许可](release-candidates/2.5.1-rc.1/LICENSE)
+
+当前版本为 **2.5.1-rc.1 Prerelease**，保持READY WITH LIMITATIONS。已测范围为23个普通功能Case；逐调用档案完整性PARTIAL 1项、六个补充覆盖NOT RUN，不代表跨模型、跨平台或OS隔离盲测验证，也不代表论文可以正式提交。详见[验证边界](release-candidates/2.5.1-rc.1/docs/VALIDATION.md)。
+
+Copyright (c) 2026 lanmaolanglang-ops。MIT只覆盖[当前候选包内有权许可的项目内容](release-candidates/2.5.1-rc.1/LICENSE_STATUS.md)，不自动重新许可旧版本档案、真实论文、内部验收证据或第三方资料。最新独立ZIP和外侧SHA在[候选Release](https://github.com/lanmaolanglang-ops/AcademicPaperEngineeringSkill/releases/tag/v2.5.1-rc.1)提供。
+
+以下完整保留原v2.1 README，作为历史说明；其中旧版入口不代表当前候选版本。
+
+---
+
 <div align="center">
 
 # Academic Paper Engineering Skill
