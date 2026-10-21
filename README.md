@@ -1,4 +1,14 @@
-# Academic Paper Engineering Skill · 2.5.1-rc.1
+# Academic Paper Engineering Skill
+
+## 排版修复维护候选 2026-10-21
+
+当前可试用 **2.5.1-rc.1+typography.20261021**：无学校模板时默认正文宋体小四、标题黑体，并明确字体、字号、缩进与行距；用户模板优先。新增实际字体/段落核对及可选格式辅助脚本，同时保留此前提交验收和逐页检查的修复。
+
+[下载修复版ZIP](packages/AcademicPaperEngineeringSkill_2.5.1-rc.1_typography_20261021.zip) · [SHA256](packages/AcademicPaperEngineeringSkill_2.5.1-rc.1_typography_20261021.zip.sha256) · [查看完整Skill](release-candidates/2.5.1-rc.1-typography.20261021/README.md) · [修复内容与验证边界](docs/typography-maintenance-20261021.md)
+
+本机Word已实际核对55段、825项字体及段落参数；**本次排版补丁尚未重跑豆包，跨软件分页仍有差异，证据契约仍有PARTIAL**。这是维护候选源码和ZIP，不是新Release或稳定版。历史测试结果及未运行项保持原范围，不能据此认定论文可以提交。
+
+## 已发布的预发布基线
 
 **当前发布候选：论文工程化 + 证据审计 + 最终验收。**
 
@@ -6,7 +16,7 @@
 
 当前版本为 **2.5.1-rc.1 Prerelease**，保持READY WITH LIMITATIONS。已测范围为23个普通功能Case；逐调用档案完整性PARTIAL 1项、六个补充覆盖NOT RUN，不代表跨模型、跨平台或OS隔离盲测验证，也不代表论文可以正式提交。详见[验证边界](release-candidates/2.5.1-rc.1/docs/VALIDATION.md)。
 
-Copyright (c) 2026 lanmaolanglang-ops。MIT只覆盖[当前候选包内有权许可的项目内容](release-candidates/2.5.1-rc.1/LICENSE_STATUS.md)，不自动重新许可旧版本档案、真实论文、内部验收证据或第三方资料。最新独立ZIP和外侧SHA在[候选Release](https://github.com/lanmaolanglang-ops/AcademicPaperEngineeringSkill/releases/tag/v2.5.1-rc.1)提供。
+Copyright (c) 2026 lanmaolanglang-ops。MIT只覆盖[当前候选包内有权许可的项目内容](release-candidates/2.5.1-rc.1/LICENSE_STATUS.md)，不自动重新许可旧版本档案、真实论文、内部验收证据或第三方资料。原始RC独立ZIP和外侧SHA在[候选Release](https://github.com/lanmaolanglang-ops/AcademicPaperEngineeringSkill/releases/tag/v2.5.1-rc.1)提供。
 
 以下完整保留原v2.1 README，作为历史说明；其中旧版入口不代表当前候选版本。
 
