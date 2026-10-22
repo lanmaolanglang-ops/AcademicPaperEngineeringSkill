@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Paper Engineering"
+  short_description: "规划技术论文、追踪主张证据、审查数据引用并核验最终交付对象"
+  default_prompt: "请使用 $academic-paper-engineering-v2-5，先读取我的材料和目标，再推进论文工程。"
