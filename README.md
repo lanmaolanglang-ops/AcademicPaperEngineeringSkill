@@ -1,17 +1,14 @@
-# Academic Paper Engineering Skill
+# Academic Paper Engineering Skill 2.7.0
 
-> **2.5.1 · 中文优先 · 论文工程化 + 证据审计 + 最终验收**
+当前正式发行版本：**v2.7.0**。从已验收的 2.7.0-candidate-fix2 整理，保持安装与调用名称 `academic-paper-engineering-v2-5`。
 
+将题目、资料和草稿推进为有依据、可复核、可交付的论文工程。支持可复现检索、来源与发表状态核验、方法核查、跨格式证据定位和三层审计报告；保留原九阶段工作流及最终验收契约。
 
-**把题目、资料和草稿，推进成有依据、能复核、可交付的论文工程。**
+本包有权许可的项目内容采用 [MIT](releases/2.7.0/LICENSE)，原版权声明保留。项目所有者已明确选择将其依法拥有或有权许可的新增、修改内容采用 MIT；具体范围见 [LICENSE_STATUS](releases/2.7.0/LICENSE_STATUS.md)，外部依赖见 [第三方说明](releases/2.7.0/THIRD_PARTY_NOTICES.md)。这不是法律权属或绝对原创性认证。
 
-Academic Paper Engineering Skill 是一套给 AI Agent 使用的工作流程。它帮助你明确研究问题、组织章节、核查数字和引用、管理修改，并对最终文件给出有范围的验收结论。它既支持从零开始，也支持已有稿件的诊断、优化和交付。
+下载 [v2.7.0 Release](https://github.com/lanmaolanglang-ops/AcademicPaperEngineeringSkill/releases/tag/v2.7.0) 的独立公共 ZIP；源码自动归档还包含历史版本，不等同于安装包。[发布说明](releases/2.7.0/RELEASE_NOTES.md)区分新增能力和限制，[验证记录](releases/2.7.0/docs/VALIDATION.md)区分本轮实际回归与历史结果。
 
-本发行包版本为 **2.5.1**。实际公开状态以 [GitHub Release](https://github.com/lanmaolanglang-ops/AcademicPaperEngineeringSkill/releases/tag/v2.5.1) 为准。正式发布、许可和验证范围见[发布说明](releases/2.5.1/RELEASE_NOTES.md)及[验证记录摘要](releases/2.5.1/docs/VALIDATION.md)。这是工作流程Skill，不自带模型、联网数据库、Word程序或自动评分器。
-
-本发行包采用[MIT许可](releases/2.5.1/LICENSE)，Copyright (c) 2026 lanmaolanglang-ops。许可仅涵盖本包中有权授予的项目内容，[授权范围](releases/2.5.1/LICENSE_STATUS.md)不包括旧版本、真实论文或第三方资料。
-
-[下载 2.5.1 ZIP](packages/AcademicPaperEngineeringSkill_2.5.1.zip) · [ZIP SHA256](packages/AcademicPaperEngineeringSkill_2.5.1.zip.sha256) · [三分钟开始](releases/2.5.1/docs/QUICKSTART.md) · [安装与调用](releases/2.5.1/docs/INSTALL.md) · [完整使用说明](releases/2.5.1/docs/USER_GUIDE.md) · [核心入口](releases/2.5.1/skill/academic-paper-engineering-v2-5/SKILL.md)
+[三分钟开始](releases/2.7.0/docs/QUICKSTART.md) · [安装与调用](releases/2.7.0/docs/INSTALL.md) · [完整使用说明](releases/2.7.0/docs/USER_GUIDE.md) · [核心入口](releases/2.7.0/skill/academic-paper-engineering-v2-5/SKILL.md)
 
 ## 你可以让它做什么
 
@@ -27,7 +24,7 @@ Academic Paper Engineering Skill 是一套给 AI Agent 使用的工作流程。�
 
 ## 中文论文排版
 
-学校、期刊或用户模板优先；没有模板时按[中文论文默认样式](releases/2.5.1/skill/academic-paper-engineering-v2-5/references/chinese_paper_format.md)设置正文宋体小四、标题黑体、明确行距与缩进，并检查DOCX实际字体及页面。它是可覆盖的产品默认，不是所有学校统一标准。缺字体与未检项明确记录，不以文件生成成功代替排版通过。
+学校、期刊或用户模板优先；没有模板时按[中文论文默认样式](releases/2.7.0/skill/academic-paper-engineering-v2-5/references/chinese_paper_format.md)设置正文宋体小四、标题黑体、明确行距与缩进，并检查DOCX实际字体及页面。它是可覆盖的产品默认，不是所有学校统一标准。缺字体与未检项明确记录，不以文件生成成功代替排版通过。
 
 ## 为什么不只用一句写作提示词
 
@@ -48,7 +45,7 @@ Academic Paper Engineering Skill 是一套给 AI Agent 使用的工作流程。�
 原稿和现有参考资料已附；格式不明确的地方请指出。
 ```
 
-第一轮应告诉你：已读材料、当前目标、当前论文版本、缺失信息、下一步。资料不足时先完成可做的规划或诊断，不假称已经有参考文献或完整正文。[四种详细调用模板](releases/2.5.1/skill/academic-paper-engineering-v2-5/templates/user_prompt_templates.md)可以直接填写。
+第一轮应告诉你：已读材料、当前目标、当前论文版本、缺失信息、下一步。资料不足时先完成可做的规划或诊断，不假称已经有参考文献或完整正文。[四种详细调用模板](releases/2.7.0/skill/academic-paper-engineering-v2-5/templates/user_prompt_templates.md)可以直接填写。
 
 ## 完整工作流
 
@@ -77,14 +74,4 @@ Skill本身是Markdown规则，安装不需要Python或数据库。实际读Word
 
 `skill/academic-paper-engineering-v2-5/`包含核心入口、九模块、六角色、七模板、三知识库、脱敏案例与按需参考。`docs/`是用户指南；内部运行包、原论文、私人对话、评估者判据和安全研究材料不在公开ZIP中。
 
-[更新记录](releases/2.5.1/CHANGELOG.md) · [已知验证范围](releases/2.5.1/docs/VALIDATION.md) · [故障排查](releases/2.5.1/docs/TROUBLESHOOTING.md) · [贡献指南](releases/2.5.1/CONTRIBUTING.md) · [MIT许可及范围](releases/2.5.1/LICENSE_STATUS.md)
-
-## 历史版本（独立保留）
-
-以上说明针对 2.5.1。包内目录说明以独立 ZIP 根目录为准，仓库中的对应位置为 `releases/2.5.1/`。MIT 的范围见该版本自己的 LICENSE_STATUS，根导航不将整个历史仓库一并重新许可。
-
-- [2.5.1-rc.1 预发布](https://github.com/lanmaolanglang-ops/AcademicPaperEngineeringSkill/releases/tag/v2.5.1-rc.1)及[候选源码](release-candidates/2.5.1-rc.1/README.md)。
-- [排版维护候选与当时限制](release-candidates/2.5.1-rc.1-typography.20261021/README.md)。
-- [v2.1 历史包](AcademicPaperEngineeringSkill_v2.1/skill/academic-paper-engineering-v2/SKILL.md)。
-
-历史失败、PARTIAL、BLOCKED 与 NOT RUN 保持其原本范围，不回写历史结果。
+[更新记录](releases/2.7.0/CHANGELOG.md) · [已知验证范围](releases/2.7.0/docs/VALIDATION.md) · [故障排查](releases/2.7.0/docs/TROUBLESHOOTING.md) · [贡献指南](releases/2.7.0/CONTRIBUTING.md) · [MIT许可及范围](releases/2.7.0/LICENSE_STATUS.md)
